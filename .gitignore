@@ -1,0 +1,8 @@
+bin
+obj
+.vs
+.store
+dotnet-fm.exe
+/packages
+*.user
+packages

@@ -1,0 +1,13 @@
+Breve descrição sobre os projetos.
+
+RaroLabs.Challenge.Abstractions:
+	- Responsável por centralizar as abstrações, tais como entidades, interfaces de repositorios, queries, objetos de transferência de dados.
+
+RaroLabs.Challenge.API
+	- API para comunicação http com os clients.
+
+RaroLabs.Challenge.Core
+	- Responsável por centralizar implementações reaproveitáveis, em um projeto seria interessante criar um package para ser referenciado pelos demais projetos.
+
+RaroLabs.Challenge.Data.ViaCEP
+	- Implementação da stack de queries (tendo em vida uma abordagem CRQS).

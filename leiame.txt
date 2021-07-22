@@ -1,4 +1,11 @@
-Breve descrição sobre os projetos.
+1. Como usar:
+	Inicie o projeto da API (RaroLabs.Challenge.API) e então faça uma requisição get como abaixo:
+	Exemplo: https://localhost:44323/api/ceps/31160620
+
+	Obs.: Ao enviar um CEP inválido, por exemplo https://localhost:44323/api/ceps/xpto a API retornará o status code 204(no content)
+
+
+2. Breve descrição sobre os projetos.
 
 RaroLabs.Challenge.Abstractions:
 	- Responsável por centralizar as abstrações, tais como entidades, interfaces de repositorios, queries, objetos de transferência de dados.
